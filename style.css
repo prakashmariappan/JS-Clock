@@ -1,0 +1,225 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+body{
+    background-color: #3D087B;
+}
+.max-width{
+    display: flex;
+    flex-direction: row;
+    padding: 34px 130px;
+    height: 100vh;
+    
+}
+/* Left Container */
+.left-container{
+    position: relative;
+    width: 566px;
+}
+.logo-container{
+    background-image: url(Images/clock_logo.png);
+    width: 204px;
+    height: 77px;
+}
+.time-setting-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+    height: 366px;
+    margin-top: 38px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-bottom: 15px
+}
+.time-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 25px;
+}
+.time-box img{
+     margin-right: 21px;
+}
+.fas{
+    margin-right: 21px;
+    font-size: 34px;
+    color: #3D087B;
+}
+.time-box p{
+    font-size: 18px;
+    color: #3D087B;
+}
+.time-box select{
+    width: 281px;
+    padding: 14px;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    color: #3D087BDE;
+    cursor: pointer;
+    
+}
+.sep{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+hr{
+    position: absolute;
+    width: 0px;
+    left: 7.5%;
+    height: 33px;
+    border: 1px solid #C2C2C2;
+    opacity: 1;
+}
+.hr1{
+    top: 20%;
+}
+.hr2{
+    top: 45%;
+}
+.hr3{
+    top: 70%;
+}
+.textcontent{
+    width: 90.8%;
+    padding: 25px;
+    color: #FFFFFF;
+    font-size: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #8E53F0;
+    border-radius: 10px;
+    text-align: left;
+}
+.button{
+    margin-top: 20px;
+    width: 299px;
+    padding: 10px 0px;
+    text-align: center;
+    background: transparent linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%) 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    font-size: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.button:hover{
+    background: transparent linear-gradient(113deg, #F1A7C5 0%, #FC5EFF  40%,#CB52F8 81%, #6E54EC 100%) 0% 0% no-repeat padding-box;
+}
+.box{
+    visibility: hidden;
+    position: absolute;
+    top: 94%;
+    right: -0.1%;
+    width: 205px;
+    border-radius: 10px;
+    background-color: #8E53F0;
+    padding: 10px;
+    color: #F25CFE;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+
+/* right Container */
+.right-container{
+    margin-left: 17px;
+    width: 536px;
+}
+.timer{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 85%;
+    border-radius: 10px;
+    padding: 10px 40px;
+    background-color: #FFFFFF;
+    z-index: 1;
+    margin-bottom: 40px;
+}
+.title{
+    color: #3D087B;
+    font-size: 20px;
+    margin-right: 32px;
+}
+.time-format{
+    background-image: url(Images/timeline.png);
+    width: 80px;
+    height: 90px;
+    color: #8A11BF;
+    text-align: center;
+    border-radius: 2px;
+}
+.para{
+    margin-top: 10px;
+    font-size: 36px;
+}
+.format{
+    margin-bottom: 10px;
+    font-size: 23px;
+}
+.colon{
+    margin: 0px 5px ;
+    font-size: 30px;
+}
+.am_pm{
+    width: 82px;
+    height: 90px;
+    background-image: url(Images/AM_svg.png);
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-size: 36px;
+    text-align: center;
+    border-radius: 2px;
+}
+.am_pm p{
+    margin: 25px 0px;
+}
+.lowerbox1{
+    position:absolute;
+    top: 9%;
+    margin-left: 4.5%;
+    width: 416px;
+    height: 100px;
+    border-radius: 10px;
+    opacity: 0.71;
+    background-color: #FFFFFF;
+    
+}
+.lowerbox2{
+    position:absolute;
+    top: 11%;
+    margin-left: 5.5%;
+    width: 379px;
+    height: 100px;
+    border-radius: 10px;
+    opacity: 0.22;
+    background-color: #FFFFFF;
+}
+.imagetext-container{
+    width: 96.5%;
+    padding: 40px 10px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    text-align: center;
+    color: #8E53F0;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.image-container{
+    background-image: url(Images/clock.png);
+    width: 536px;
+    height: 341px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+
+}
