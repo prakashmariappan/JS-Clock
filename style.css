@@ -223,3 +223,15 @@ hr{
     background-position: center bottom;
 
 }
+.wake{
+    background-image: url(Images/wakeup_image.png);
+}
+.lunch{
+    background-image: url(Images/lunch_image.png);
+}
+.nap{
+    background-image: url(Images/evening.png);
+}
+.night{
+    background-image: url(Images/goodnight_image.png);
+}

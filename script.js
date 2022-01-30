@@ -34,22 +34,22 @@ function settime(){
     var c =document.getElementById("naptime").value;
     var d =document.getElementById("nighttime").value;
     if(a==hrs){
-        document.getElementById("image").style.backgroundImage="url(./Images/wakeup_image.PNG)";
+        document.getElementById("image").classList.add('wake');
         document.getElementById("imagetext").innerHTML="grab some healthy brekfast!!!";
         document.getElementById("text").innerHTML="good morning!! wake up!!";
     };
     if(b==hrs){
-        document.getElementById("image").style.backgroundImage="url(./Images/lunch_image.PNG)";
+        document.getElementById("image").classList.add('lunch');
         document.getElementById("imagetext").innerHTML="let's have some lunch !!";
         document.getElementById("text").innerHTML="good afternoon !! take some sleep";
     };
     if(c==hrs){
-        document.getElementById("image").style.backgroundImage="url(./Images/evening.PNG)";
+        document.getElementById("image").classList.add('nap');
         document.getElementById("imagetext").innerHTML="stop yawning, get some tea.. its just evening!";
         document.getElementById("text").innerHTML="good evening !!";
     };
     if(d==hrs){
-        document.getElementById("image").style.backgroundImage="url(./Images/goodnight_image.PNG)";
+        document.getElementById("image").classList.add('night');
         document.getElementById("imagetext").innerHTML="close your eyes and go to sleep";
         document.getElementById("text").innerHTML="good night !!";
     };
